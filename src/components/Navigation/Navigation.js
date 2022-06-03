@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
-
-import logo from "../../images/logo.svg"
+import importedImages from "../index";
 
 export default function Navigation() {
   return (
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-
-  <Navbar.Brand href="#home">
-    <Link to="/" ><img src={logo} alt="" /></Link>
+<>
+<Navbar collapseOnSelect expand="lg" className='auto-margin'>
+  <Navbar.Brand>
+    <Link to="/" ><img src={importedImages.logo} alt="" /></Link>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -24,5 +23,6 @@ export default function Navigation() {
     </Nav>
   </Navbar.Collapse>
 </Navbar>
+</>
   );
 }

@@ -1,0 +1,12 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%),1fr));
+    gap: 1rem;
+    color: #fff;
+}
+
+.footer{
+
+    background-color:  hsl(260, 8%, 14%);
+    padding: 30px;
+}

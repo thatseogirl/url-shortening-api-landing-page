@@ -1,0 +1,5 @@
+.shorten{
+    background-image: url(../images/bg/bg-shorten-desktop.svg);
+  object-fit: cover;
+  background-color: red;
+}
