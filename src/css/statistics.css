@@ -1,5 +1,27 @@
 .statistic{
-    background-color:  hsl(0, 0%, 75%);
+    margin-top: 60px;
+    background-color:  #f0f1f6;
+    height: 650px;
+    padding-top: 40px;
+}
+
+.statContainer{
+    padding-top: 150px;
+}
+
+.statContainer h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.centered p{
+    color:  hsl(0, 0%, 75%);
+    font-weight: 500;
+    font-weight: 18px;
 }
 .brand-statics{
     display: grid;
@@ -10,9 +32,3 @@
 .boost{
     background-image: url('../images/bg/bg-boost-desktop.svg');
 }
-/* @media (min-width: 768px){
-    .brand-statics{
-        grid-auto-flow: row;
-        grid-auto-rows: 1fr;
-    }
-} */

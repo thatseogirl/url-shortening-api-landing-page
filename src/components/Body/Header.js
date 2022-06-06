@@ -8,13 +8,13 @@ export default function Header() {
     <>
     <div className="auto-margin">
       <header className="header-grid">
-        <aside>
+        <aside className="first-grid">
           <h2>More than just shorter links</h2>
           <p>
-            Build your brand’s recognition and get detailed insights on how your
+            Build your brand’s recognition and get detailed <br />insights on how your
             links are performing.
           </p>
-          <button> Get Started</button>
+          <button className="btn"> Get Started</button>
         </aside>
         <aside>
           <img src={importedImages.illustration} alt="illustration" className="illustration"/>

@@ -12,11 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.face{
-    background-color: red;
-}
-
 .auto-margin{
-    width: 90%;
+    width: 85%;
     margin: auto;
 }

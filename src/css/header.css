@@ -1,10 +1,38 @@
-.header-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%),1fr));
-    gap: 1rem;
+.header-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+  gap: 20px;
+  padding-top: 30px;
 }
 
-.illustration{
-    object-fit: cover;
-    width: 100%;
+.illustration {
+  object-fit: cover;
+  width: 100%;
+}
+
+.first-grid {
+  padding-top: 50px;
+}
+
+.first-grid h2 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.first-grid p {
+  font-weight: 500;
+  font-size: 18px;
+  color: hsl(0, 0%, 75%);
+}
+
+.btn {
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 25px;
+  width: 150px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: #fff !important;
 }

@@ -1,0 +1,38 @@
+.mainContent {
+  padding-top: 30px;
+}
+
+.right-navigation {
+  margin-left: 20px !important;
+}
+
+.color {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(0, 0%, 75%);
+}
+.left-navigation{
+  gap: 20px;
+}
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(257, 7%, 63%);
+  padding: 5px;
+}
+
+.signup{
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: hsl(180, 66%, 49%);
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.link:hover{
+  color: hsl(0, 0%, 75%);
+}

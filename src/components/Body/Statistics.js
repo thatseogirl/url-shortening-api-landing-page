@@ -3,12 +3,13 @@ import "../../css/statistics.css"
 import importedImages from '../index'
 export default function Statistics() {
   return (
+      <>
       <div className='statistic'>
       <section className='auto-margin'>
-      <main>
-          <div>
+      <main className='statContainer'>
+          <div className='centered'>
               <h2>Advanced Statistics</h2>
-              <p>Track how your links are performing across the web with our 
+              <p>Track how your links are performing across the web with <br /> our 
   advanced statistics dashboard.</p>
           </div>
           <section className='brand-statics'>
@@ -40,11 +41,12 @@ export default function Statistics() {
           </section>
          
       </main>
+      </section>
+      </div>
       <div className='boost'>
               <p>Boost your links today</p>
               <button>Get Started</button>
           </div>
-      </section>
-      </div>
+      </>
   )
 }
