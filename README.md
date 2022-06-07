@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://github.com/thatseogirl/url-shortening-api-landing-page]
+- Live Site URL: [https://tobi-url-shortening-api.netlify.app/]
 
 ## My process
 
