@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer">
     <footer className="auto-margin">
       <div>
-        <img src={importedImages.logo} alt="" />
+        <img src={importedImages.logo} alt="" className="footerlogo"/>
       </div>
       <div className="features">
         <ul className="list-items">
