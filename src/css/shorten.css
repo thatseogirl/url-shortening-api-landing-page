@@ -16,11 +16,34 @@
 
 .text {
   padding: 10px;
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
 }
 
-button {
+.btnshort {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  color: #fff;
+  width: 100%;
+}
+
+.copy {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.shotenedlink {
+  width: 100%;
+}
+
+.btncopy {
+  width: 100%;
   padding: 10px;
   border-radius: 10px;
   background-color: hsl(180, 66%, 49%);
@@ -28,21 +51,11 @@ button {
   color: #fff;
 }
 
-.copy {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-  position: relative;
-  top: 30px;
-}
-
-.copy button {
-  width: 100%;
-}
-
 @media screen and (max-width: 992px) {
   .copy {
+    flex-direction: column;
+  }
+  .form {
     flex-direction: column;
   }
 }

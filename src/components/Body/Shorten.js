@@ -54,22 +54,16 @@ export default function Shorten() {
             placeholder="Shorten a link here..."
             className="text"
           />
-          <button onClick={handleSubmit}>Shorten It!</button>
+          <button onClick={handleSubmit} className="btnshort">Shorten It!</button>
         </form>
         <div className="copy">
-          <div>
-            <h6>{links.original_link}</h6>
-          </div>
-
-          <div>
-            <p>{links.full_short_link}</p>
+          <div >
+            <p className="shortenedlink">{links.full_short_link}</p>
           </div>
           <div>
-            <p>
-              <button onClick={handleCopy} className="btncopy">
-                {buttonText}
-              </button>
-            </p>
+            <button onClick={handleCopy} className="btncopy">
+              {buttonText}
+            </button>
           </div>
         </div>
       </section>
